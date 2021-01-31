@@ -5,6 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\fade_out_animation.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\floating_action_button.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\notification.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\scrollbar.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\theme_defenitions.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\theme_utilities.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.dashboard.components\1.0.0\contentFiles\any\net5.0\vendor.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\fade_out_animation.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\floating_action_button.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\notification.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\scrollbar.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\theme_defenitions.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\theme_utilities.scss" />
+    <Content Remove="C:\Users\nicho\.nuget\packages\carlton.testbed\1.0.0\contentFiles\any\net5.0\vendor.scss" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Carlton.Dashboard.Components" Version="1.0.0" />
     <PackageReference Include="Carlton.TestBed" Version="1.0.0" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly" Version="5.0.1" />
