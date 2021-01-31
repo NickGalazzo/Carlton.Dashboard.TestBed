@@ -1,0 +1,23 @@
+name: Create and publish a package
+on:
+  push:
+    branches: [ master ]
+jobs:
+  publish-package-on-build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkkout Files
+        uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '5.0.101'
+          source-url: https://nuget.pkg.github.com/NickGalazzo/index.json
+        env:
+          NUGET_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN}}   
+      - name: Restore
+        run: dotnet restore
+      - name: Build
+        run: dotnet build
+      - name: Test
+        run: dotnet test
