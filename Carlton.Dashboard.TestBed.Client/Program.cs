@@ -10,6 +10,7 @@ using Carlton.Base.Client.Components.TestData;
 using Carlton.Base.Client.Components.Test;
 using Carlton.Dashboard.Models.TestModels;
 using Carlton.Dashboard.Components;
+using Carlton.Dashboard.TestBed.Client;
 
 namespace Carlton.Dashboard.TestBed
 {

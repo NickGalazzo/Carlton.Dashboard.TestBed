@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Carlton.Dashboard.TestBed.Client", "Carlton.Dashboard.TestBed.Client\Carlton.Dashboard.TestBed.Client.csproj", "{4A999E2C-7D2A-48EC-AC16-06758ABA8BC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Carlton.Dashboard.TestBed.Server", "Carlton.Dashboard.TestBed.Server\Carlton.Dashboard.TestBed.Server.csproj", "{2EA68D9E-720D-4DC6-9CFF-7677724DC36E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A999E2C-7D2A-48EC-AC16-06758ABA8BC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A999E2C-7D2A-48EC-AC16-06758ABA8BC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A999E2C-7D2A-48EC-AC16-06758ABA8BC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A999E2C-7D2A-48EC-AC16-06758ABA8BC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2EA68D9E-720D-4DC6-9CFF-7677724DC36E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2EA68D9E-720D-4DC6-9CFF-7677724DC36E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2EA68D9E-720D-4DC6-9CFF-7677724DC36E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2EA68D9E-720D-4DC6-9CFF-7677724DC36E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B772FCA-A78D-4582-B441-668F83F558E5}
+	EndGlobalSection
+EndGlobal
