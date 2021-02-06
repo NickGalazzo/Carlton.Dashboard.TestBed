@@ -22,4 +22,4 @@ jobs:
         run: docker build -t carlton-dashboard-testbed --build-arg PACKAGE_FEED=https://nuget.pkg.github.com/NickGalazzo/index.json --build-arg PACKAGE_FEED_PAT=${{ secrets.PACKAGE_TOKEN }} .
       -
         name: Push Docker Image
-        run: docker push ghcr.io/nickgalazzo/carlton-dashboard-testbed:latest
+        run: docker push carlton-dashboard-testbed:latest
