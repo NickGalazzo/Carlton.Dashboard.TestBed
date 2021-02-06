@@ -19,7 +19,7 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true 
-          tag: latest
+          tags: :latest
           build-args: |
             PACKAGE_FEED=https://nuget.pkg.github.com/NickGalazzo/index.json
             PACKAGE_FEED_PAT=${{ secrets.PACKAGE_TOKEN }}
