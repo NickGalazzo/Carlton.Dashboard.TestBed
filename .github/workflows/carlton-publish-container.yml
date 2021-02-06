@@ -22,4 +22,4 @@ jobs:
           run: pwd
       -
         name: Build Docker Image
-        run: docker build . --file Dockerfile
+        run: docker build -t carlton-dashboard-testbed --build-arg PACKAGE_FEED=https://nuget.pkg.github.com/NickGalazzo/index.json --build-arg PACKAGE_FEED_PAT=${{ secrets.PACKAGE_TOKEN }} .
