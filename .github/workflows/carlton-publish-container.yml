@@ -1,8 +1,9 @@
 name: ci
 on:
   push:
-    branches: masteobs:
-  login:
+    branches: master
+jobs:
+  publish-container-on-build:
     runs-on: ubuntu-latest
     steps:
       - name: Checkkout Files
